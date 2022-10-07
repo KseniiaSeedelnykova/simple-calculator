@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <center>
+  <div class="calculator">
+    <table name="calculator">
+      <span class="row1">
+        <input class="provide" name="display" id="display" type="text" />
+      <button type="button" onclick="display.value = ''">
+        AC
+      </button>
+      </span>
+      <tr class="row2">
+        <td>
+          <input type="button" value="1" />
+        </td>
+        <td><input type="button" value="2" /></td>
+        <td><input type="button" value="3" /></td>
+        <td><input type="button" value="/" /></td>
+      </tr>
+      <tr class="row3">
+        <td><input type="button" value="4" /></td>
+        <td><input type="button" value="5" /></td>
+        <td><input type="button" value="6" /></td>
+        <td><input type="button" value="-" /></td>
+      </tr>
+      <tr class="row4">
+        <td><input type="button" value="7" /></td>
+        <td><input type="button" value="8" /></td>
+        <td><input type="button" value="9" /></td>
+        <td><input type="button" value="+" /></td>
+      </tr>
+      <tr class="row5">
+        <td><input type="button" value="0" /></td>
+        <td><input type="button" value="." /></td>
+        <td><button type="button" onclick="solve()">
+      =
+      </button></td>
+        <td><input type="button" value="*" /></td>
+      </tr>
+      <tr class="row6">
+        <td>    <button type="button" onclick="display.value = 
+      display.value.substr(0,display.value.length-1)">
+        C
+      </button></td>
+      </tr>
+    </table>
+    </div>
+    </center>
+    <script src="script.js"></script>
+  </body>
+</html>
+ 

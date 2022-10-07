@@ -1,0 +1,23 @@
+button,
+input {
+  border: 1px solid;
+  border-radius: 4px;
+  height: 40px;
+  width: 50px;
+  cursor: pointer;
+}
+.calculator {
+  border: 0.9px solid;
+  border-radius: 4px;
+  padding: 20px;
+  width: 301px;
+}
+.cuburrentdata {
+  border: 1px solid;
+  border-radius: 5px;
+  height: 35px;
+  width: 155px;
+}
+.provide {
+  width: 154px;
+}
